@@ -1,0 +1,59 @@
+﻿.container {
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+}
+
+    .container::-webkit-scrollbar {
+        width: 0.5rem;
+        height: 0.5rem;
+    }
+
+    .container::-webkit-scrollbar-thumb {
+        border-radius: .5rem;
+        background-color: #4c596d8c;
+        visibility: hidden;
+    }
+
+    .container:hover::-webkit-scrollbar-thumb {
+        visibility: visible;
+    }
+
+
+.title {
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+.row {
+    padding-bottom: 2rem;
+    flex-direction: column;
+}
+
+.content {
+}
+
+.col {
+    padding-top: 1rem;
+    color:black;
+}
+
+.box {
+    display: flex;
+    justify-content: end;
+}
+
+textarea {
+    resize: none;
+    text-align:justify;
+}
+
+.buttonPrev {
+    margin-top: 1rem;
+    padding-right: 0;
+    padding-left:0;
+}
+
+.body {
+    background-color:transparent;
+}

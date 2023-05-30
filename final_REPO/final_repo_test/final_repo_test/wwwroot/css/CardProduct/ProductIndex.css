@@ -1,0 +1,31 @@
+﻿.table {
+    table-layout: fixed;
+    /* border-radius: 10px; */
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 90%;
+}
+
+td {
+    white-space: normal;
+    word-wrap: break-word;
+    width: 5%;
+}
+
+input[type="checkbox"] {
+    transform: scale(2);
+}
+
+.tdcenter {
+    text-align: center;
+}
+.box {
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    border-radius: 15px;
+    margin-left: 2%;
+    width: 95%;
+    height: 95%;
+    /*max-height: 80%;*/
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    overflow: auto;
+}
